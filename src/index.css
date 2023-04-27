@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@200;400;600;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Body & HTML */
+body {
+  font-family: 'Blinker', sans-serif;
+  position: relative;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 19px;
+}
+
+/* Parallax */
+.parallax {
+  position: relative;
+  background-image: url('img/background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.parallax-banner {
+  position: relative;
+  background-image: url('img/background-2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  padding-top: 10vh;
+}
+
+.parallax-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
