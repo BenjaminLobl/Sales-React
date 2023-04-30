@@ -8,7 +8,7 @@ Sales-React is a minimalist e-commerce website built with React and vanilla CSS.
 
 - Vanilla CSS
 - React JS
-- 
+
 ## Technical Overview
 
 Sales-React is built using React JS, which allows for a fast and efficient user experience by minimizing page reloads through the use of reusable components and state management.
